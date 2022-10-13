@@ -1,8 +1,6 @@
 from flask import Flask, render_template
 import requests
 
-import numpy as np
-import pandas as pd
 import yfinance as yf
 
 # getting the current stock price of GME using yfinance API
