@@ -16,4 +16,4 @@ def index():
     gme_price = get_gme_price()
     return render_template("index.html", gme_price=gme_price)
 
-app.run(host="0.0.0.0", port=80)
+app.run(host="0.0.0.0", port=5000)
